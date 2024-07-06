@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+        .input-facebook {
+            @apply outline-0 rounded-md bg-facebook-gray pl-2 border border-gray-300 capitalize w-full h-14
+        }
+        .button-facebook{
+            @apply capitalize h-12 w-full bg-facebook-blue text-white font-bold rounded-md
+        }
+    }
